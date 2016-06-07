@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet var wv:UIWebView!
     
     func loadUrl() {
-        wv.loadRequest(NSURLRequest(URL:NSURL(string: "http://luosonglin.github.io")!))
+        wv.loadRequest(NSURLRequest(URL:NSURL(string: "http://luosonglin.github.io/page")!))
     }
 
     override func viewDidLoad() {
